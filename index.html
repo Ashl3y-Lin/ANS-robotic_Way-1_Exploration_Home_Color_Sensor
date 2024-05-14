@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensors: Color</title>
+
+    <link rel="icon" href="https://i.ibb.co/9Ztfdxp/ROBOTICS.png" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="dropdown-sidebar.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="quizSection.css">
+</head>
+<body>
+
+    <!-- 3 columns -->
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home"><img src="https://i.ibb.co/fChm6F5/home-icon-silhouette.png" alt=""> Home ⌄ </img></a>
+                    <ul  class="dropdown">
+                        <li><a href="#">Begin?</a></li>
+                        <li><a href="#">10_Topics</a></li>
+                        <li><a href="#"> Questions</a></li>
+                    </ul>
+                </li>
+                
+                <li class="with-dropdown">
+                    <a href="#topic-buttons"><img src="https://i.ibb.co/8XYKTgh/reading-book-1.png" alt=""> Topics ⌄ </img></a>
+                    <ul  class="dropdown">
+                        <li><a href="#">Movement</a></li>
+                        <li><a href="#">Motor</a></li>
+                        <li><a href="#">Display</a></li>
+                        <li><a href="#">Sound</a></li>
+                        <li><a href="#">Control</a></li>
+                        <li><a href="#">Sensors</a></li>
+                        <li><a href="#">Event</a></li>
+                        <li><a href="#">Operator</a></li>
+                        <li><a href="#">Variable</a></li>
+                        <li><a href="#">My Block</a></li>
+
+                    </ul>
+                </li>
+
+                <li><a href="#wro"><img src="https://i.ibb.co/Drnm7cM/competition.png" alt=""> About WRO ⌄ </img></a>
+                    <ul  class="dropdown">
+                        <li><a href="#">WRO?</a></li>
+                        <li><a href="#">ANS_journey</a></li>
+                        <li><a href="#">Tips</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <div class="wrapper">
+        <div class="header-content" id="movement-home">
+            <h1>Sensors</h1>
+            <div>
+                <p>Sensors in EV3 are very important because they help the robot "see" and "feel" its surroundings in order for EV3 to make smart decisions based on what it senses.</p>
+                <p>
+                    <strong>There are 5 type of sensors:</strong>
+                </p>
+            </div>
+            <!-- grid-container has the margin to the left-->
+            <div class="grid-container-5col">
+
+                <!-- Introduction-->
+
+                <div class="grid-item">
+                    <a href="">
+                        <div class="flex-grid">
+                            <div class="flex-item">
+                                <h3>Ev3 Brick</h3>
+                            <img src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/2a068bc435627b569862da5e0523a113/large.jpg" alt="Sensor-brick">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                    <div class="grid-item">
+                        <a href="">
+                            <div class="flex-grid">
+                                <div class="flex-item">
+                                    <h3>Color Sensor</h3>
+                                    <img src="https://ev3dev-lang-java.github.io/docs/support/fundamentals/sensors/ev3-light-sensor/ev3_light_sensor.png" alt="Sensor-color">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="grid-item">
+                        <a href="">
+                            <div class="flex-grid">
+                                <div class="flex-item">
+                                    <h3>Touch Sensor</h3>
+                                <img src="https://m.media-amazon.com/images/I/51ANO3KKxDL._AC_UF894,1000_QL80_.jpg" alt="Sensor-touch">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="grid-item">
+                        <a href="">
+                            <div class="flex-grid">
+                                <div class="flex-item">
+                                    <h3 class="h3-smaller">Ultrasonic Sensor</h3>
+                                    <img src="https://m.media-amazon.com/images/I/51wnwlOTfCL.jpg" alt="Sensor-ultrasonic">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="grid-item">
+                        <a href="">
+                            <div class="flex-grid">
+                                <div class="flex-item">
+                                    <h3>Gyro Sensor</h3>
+                                    <img src="https://i.ebayimg.com/images/g/w5AAAOSwzc5kTT20/s-l400.jpg" alt="Sensor-gyro">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    
+
+            <!-- Closure of div.grid-container -->
+            </div>
+        </div>
+            
+            <div class="side-bar">
+                <div class="menu">
+                    <div class="item">
+                        <div class="movement-logo"><a href="#movement-home"><img src="https://i.ibb.co/mzXS0HT/logo-sensor-color.png" alt="logo-sensor-color"></a>
+                        </div>
+
+                        <a href="#movement-home"><span class="side-bar-title-1">Color Sensor:</span></a>
+                        <ul class="sub-menu">
+                            <li><a href="#below-header" class="sub-item"> Why color sensor?</a></li>
+                            <!-- <li><a href="#if-yellow" class="sub-item">If "yellow"</a></li> -->
+                            <li><a href="#color-build" class="sub-item"> Add Color sensor design</a></li>
+                            <li><a href="#repeat-until-blue" class="sub-item">Repeat Until "blue"</a></li>
+                            <li><a href="#wait-until-black" class="sub-item">Wait Until "black"</a></li>
+                            <li><a href="#if-else-nocolor" class="sub-item">If-Else "No color"</a></li>
+                            <li><a href="#movement-key-takeaway" class="sub-item">Key-takeaways</a></li>
+                            <li><a href="#colorSensor-quiz" class="sub-item">Quiz</a></li>
+                            <li><a href="#challengeYou" class="sub-item">Challenge for you</a></li>
+                        </ul>
+
+                        <!-- <a href="different-page.html#section1">Section One</a> -->
+                        <a href=""><span class="side-bar-title-2">The 5 Sensors:</span></a>
+                        <ul class="sub-menu">
+                            <li><a href="#" class="sub-item">Brick Sensor</a></li>
+                            <li><a href="#" class="sub-item highlight"> Color Sensor</a></li>
+                            <li><a href="#" class="sub-item">Touch Sensor</a></li>
+                            <li><a href="#" class="sub-item">Ultrasonic Sensor</a></li>
+                            <li><a href="#" class="sub-item">Gyro Sensor</a></li>
+                            
+                            
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+<!-- Introduction of color sensor -->
+        <div class="main-container grid-item together pink-background" id="below-header">
+            <div class="flex-grid flex-container flex-item challenge-container">
+                <div class="letter-both">
+                    <h2>Color Sensor</h2>
+                </div>
+                <div class="flex-item">
+                    <div class="img-center">
+                        <img src="https://s3.amazonaws.com/cs2n-curriculum/curriculum-activities/ev3/ev3-color-sensor-comparison.png" alt="">
+                   </div>
+                </div>
+
+                <div class="flex-item">
+                    <p>The robot can read 8 colors (including "No color")</p>
+                     <p>-> <strong>Detecting Objects</strong>: help EV3 detect objects of different colors.</p>
+                    <p>-> <strong> Making Decisions</strong>: With the color sensor, EV3 can make decisions based on colors. For example, it can stop when it sees a red stop sign or move forward when it sees a green light.</p>
+                    <p>-><strong> Following Lines</strong>: use the color sensor to follow lines on the ground. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-container grid-item together pink-background" id="color-build">
+            <div class="one-grid flex-item">
+                <div class="letter-both">
+                    <h2>Add the Color sensor to the robot by:</h2>
+                </div>
+                <div class="flex-item">
+                    <div>
+                        <img src="https://i.ibb.co/gvx3VWm/IMG-2016.jpg" alt="IMG-2016" >
+                   </div>
+                </div>
+
+                <div class="flex-item">
+                     <a href="https://ashl3y-lin.github.io/Way-1_Exploration-Color_Sensor/"><button class="design_button">Click here to find the guide</button></a>
+                </div>
+            </div>
+        </div>
+
+<!-- Sensor How to look at the color -->
+        <div class="main-container grid-item together pink-background" id="view-color">
+            <div class="one-grid flex-item">
+                <div class="letter-both">
+                    <h2>A way to know what color the sensor is reading:</h2>
+                </div>
+                <div class="flex-item">
+                    <div>
+                        <img src="https://i.ibb.co/znKpy75/ev3-connected-color.png" alt="ev3-connected-color">
+                   </div>
+                </div>
+
+                <div class="flex-item">
+                     <p>-> You can look at the color sensor displayed in your computer/laptop/ipad once you connected the robot.</p>
+                     <p>-> As you can see, every motor and sensor is displayed when the ev3 brick has a green dot.</p>
+                </div>
+            </div>
+        </div>
+
+
+<!-- Sensor explain observation of the shapes of the sensor input -->
+        <div class="main-container grid-item together pink-background" id="shape-input">
+            <div class="one-grid flex-item">
+                <div class="letter-both">
+                    <h2>Shapes of color input</h2>
+                </div>
+                <div class="flex-item">
+                    <div class="side-by-side-img">
+                        <img src="https://i.ibb.co/p1QTBfk/color-hexagon.png" alt="color-hexagon">
+                        <img src="https://i.ibb.co/QQp1qZn/color-circle.png" alt="color-circle">
+                        <img src="https://i.ibb.co/NWrxkCN/color-rectangle.png" alt="color-rectangle">
+                    </div>
+                </div>
+
+                <div class="flex-item">
+                    <p><strong>You can find 3 type of shapes for the sensors.</strong></p>
+                    <p>-> <strong>The hexagon</strong> shape it's for loops (you use it for "control" blocks)</p>
+                    <p>-> <strong>The circle</strong> it's operators (we are going to see "operators" soon!)</p>
+                    <p>-> <strong>The rectangle</strong> it's an entire block just like the "Movement" and "Motors"</p>
+                </div>
+            </div>
+        </div>
+
+
+        <hr class="line-divider">
+
+
+<!-- The REPEAT UNTIL BLUE -->
+        <div class="three-columns grid-container-height" id="repeat-until-blue">
+            <div class="grid-item">
+                <h2>Repeat Until "Blue"</h2>
+                <div class="flex-item">
+                    <img src="https://i.ibb.co/9TwKWbg/blue.png" alt="blue">
+                    
+                </div>
+            </div>
+            <div class="grid-item unite">
+                <div class="flex-item">
+                    <img src="https://s12.gifyu.com/images/SaowA.gif" alt="color" >
+                    <p>This video/gif it's in x2 speed.</p>
+                    
+                </div>
+                <div class="flex-item">
+                    <img src="https://i.ibb.co/Cnvd563/2-Color-Blue-Repeat-Until.png" alt="2-Color-Blue-Repeat-Until">
+                    <p>1- <strong>Repeat</strong> [wheels move straight (forward) at speed of 20% <em>repeatedly</em>] <strong>Until</strong> [color sensor read "blue"]</p>
+                    <p>2- Condition is met. Stop moving.</p>
+                </div>
+            </div>
+        <!-- closure The div of 3-columns -->
+        </div>
+
+        <hr class="line-divider">
+
+                
+<!-- The WAIT UNTIL BLACK -->
+        <div class="three-columns grid-container-height" id="wait-until-black">
+            <div class="grid-item">
+                <h2>Wait Until "Black"</h2>
+                <div class="flex-item">
+                   <img src="https://i.ibb.co/m0TkMnR/black.png" alt="black">
+                    
+                </div>
+            </div>
+            <div class="grid-item unite">
+                <div class="flex-item">
+                    <img src="https://s12.gifyu.com/images/Saowf.gif" alt="color (1)">
+                    <p>Notice that robot turns forever until the condition it's met.</p>
+                    
+                </div>
+                <div class="flex-item">
+                    <img src="https://i.ibb.co/JzXP1GH/3-color-Black-wait-Until.png" alt="3-color-Black-wait-Until">
+                    <p>1- Robot <strong>Wait</strong> [Wheels start moving 60 degrees left (since it's negative speed)]<strong>Until</strong> [color sensor read "black"]</p>
+                    <p>2- Condition is met. Stop moving.</p>
+                    <p>3- "Stop and Exit program" </p>
+                </div>
+            </div>
+        <!-- closure The div of 3-columns -->
+        </div>
+
+        <hr class="line-divider">
+
+<!-- The REPEAT UNTIL NO COLOR -->
+        <div class="three-columns grid-container-height" id="if-else-nocolor">
+            <div class="grid-item">
+                <h2>If-Else "No color"</h2>
+                <div class="flex-item">
+                    <img src="https://i.ibb.co/3WtG6m7/NoColor.png" alt="NoColor">
+                    
+                </div>
+            </div>
+            <div class="grid-item unite">
+                <div class="flex-item">
+                   <img src="https://s9.gifyu.com/images/Saowa.gif" alt="color (3)" >
+                  <img src="https://s12.gifyu.com/images/SaowZ.gif" alt="color (2)">
+                    <p>Notice that robot make 2 type of desicions.</p>
+                    
+                </div>
+                <div class="flex-item">
+                    <img src="https://i.ibb.co/7SGNxnY/4-color-no-Color-If-Else.png" alt="4-color-no-Color-If-Else">
+                    <p>-> <strong>If</strong> [color sensor reads "No color"] <strong>Then</strong> [wheels move 600 degrees FORWARD at the speed of 50%]</p>
+                    <p>-> <strong>Else</strong> [color sensor reads "any color" (in this case "red")] <strong>Then</strong> [wheels move 600 degrees BACKWARD at the speed of 50%]</p>
+                    <p>-> Condition is met. Stop moving.</p>
+                </div>
+            </div>
+        <!-- closure The div of 3-columns -->
+        </div>
+
+
+    <!-- closure grid-container  -->
+        </div>
+
+
+        <hr class="line-divider">
+    
+
+
+<div class="grid-container">
+            <!-- Observation area -->
+            <div class="grid-item together no-background" id="control-key-takeaway">
+                <div class="label">
+                    <h3>Key-Takeaways: Why is color sensor important for programming?</h3>
+                </div>
+                <p>
+                    <ul class="observation-list">
+                        <li>-> <strong>Precision in Navigation</strong>: The color sensor helps the robot navigate accurately by following lines on the ground.</li>
+                        <li>-> <strong>Object Identification</strong>: It allows the robot to identify and differentiate between different objects based on their colors.
+                        </li>
+                        <li>-> <strong>Decision Making</strong>: With the ability to detect colors, the robot can make decisions based on what it "sees". </li>
+                        <li>-> <strong>Robot becomes Problem Solver</strong>: the robot becomes better equipped to solve complex problem such as adapting its behavior based on the colors it detects, making it more efficient in completing tasks.</li>
+                        <li>-> <strong>Real-world Applications:</strong> Many real-world applications rely on color detection.
+                            <ul class="observation-sublist">
+                                <li> Quality control in manufacturing</li>
+                                <li>Product sorting in warehouses</li>
+                                <li>Traffic signal recognition in  vehicles.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+
+            </div>
+<!-- closure grid-container  -->
+    </div>
+
+
+<!-- Quiz Section -->
+    <div class="grid-container">
+        <div class="grid-item together pink-background" id="colorSensor-quiz">
+            <!-- Quiz section -->
+            <div class="app">
+                <h1>Time for a quiz!</h1>
+                <div class="quiz">
+                    <h2 id="question"> Question goes here</h2>
+                    <div id="answer-buttons">
+                        <button class="btn"> Answer 1</button>
+                        <button class="btn"> Answer 2</button>
+                        <button class="btn"> Answer 3</button>
+                        <button class="btn"> Answer 4</button>
+                    </div>
+                    <button id="next-button">Next</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+<!-- Challenge for you section -->
+        <div class="grid-item together pink-background" id="challengeYou">
+            <div class="letter-both">
+                <h2>Challenge for you: Red Green Light</h2>
+            </div>
+            <div class="flex-grid flex-container flex-item challenge-container-color">
+                <div class="flex-item">
+                    <img src="https://i.ibb.co/5c3p04N/5-1-Color-you.png" alt="5-1-Color-you">
+                    
+                </div>
+                <div class="flex-item">
+                    <img src="https://s12.gifyu.com/images/SaPZA.gif" alt="IMG 1919">
+                    <strong>
+                        <p>Hint:</p>
+                    </strong>
+                    <p>-> Once sensor read "green": go backward speed of 40%</p>
+                    <p>-> Once senor read "yellow": go backward speed of 15%</p>
+                    <p>-> Once sensor read "red": robot stop moving</p>
+                    <strong>
+                        <p>Hint 2:</p>
+                    </strong>
+                    <p>There's no set degree, meaning that robot go backward forever until a condition it's met.</p>
+                    <strong>
+                        <p>If color sensor can't read, slow down the robot</p>
+                    </strong>
+                </div>
+
+                <div class="flex-item">
+                    <div id="hide-box">
+                       <img src="https://i.ibb.co/0XxwLY0/5-Color-you.png" alt="5-Color-you">
+                        <p>Notice that you need to "start moving" blocks instead of "move for" blocks.</p>
+                        <p>I tried "wait until" block. But you can also use "color sensor" rectangle block.</p>
+                        <p>If you don't understand, go back to review control.</p>
+                    </div>
+                    <button class="unhide-button" onclick="ShowAnswer()">Show Answer</button>   
+                </div>
+            </div>
+        </div>
+
+<!-- Dont know of this /div -->
+    </div>
+
+
+
+    <!-- Buttons for next -->
+    <div class="bottom-buttons">
+        <a href=""><button id="home" class="home-icon"> <img src="https://i.ibb.co/fChm6F5/home-icon-silhouette.png" alt="home-icon-silhouette" height="30"></button> </a>
+        <a href=""><button id="motors" class="next-button">Next: Touch Sensor <img src="https://i.ibb.co/0CWHhM7/icons8-arrow-full-white.png" alt="icons8-arrow-full-white" height="30" ></button></a>
+       
+    </div>
+
+
+          <!-- Footer -->
+          <div class="footer-container">
+            <div class="footerNav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#topic-buttons">Topics</a></li>
+                    <li><a href="#wro">About WRO</a></li>
+                </ul>
+            </div>
+            <div class="footer-copyright">
+                <p>Copyright &copy;2024; Designed by <span class="designer">Ashley Lin </span> | Senior 2024 | American Nicaraguan School</p>
+            </div>
+        </div>
+
+
+</div>
+    
+
+    <script src="quizSection.js"></script>
+    <script src="showAnswer.js"></script>
+    <script src="scroll-smooth.js"></script>
+</body>
+</html>
